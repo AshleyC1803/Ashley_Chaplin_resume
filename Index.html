@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="Ashley Chaplin, Mark Otto, Jacob Thornton, and Bootstrap contributors">
+        <meta name="generator" content="Jekyll v4.1.1">
+        <title>Ashley Chaplin Resume</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet"
+              href="css/bootstrap.min.css"
+        />
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/components/modal/">
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/apple-touch-icon.png"
+              sizes="180x180">
+
+        <link rel="manifest" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="https://getbootstrap.com/docs/4.5/assets/img/favicons/safari-pinned-tab.svg"
+              color="#563d7c">
+
+        <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#563d7c">
+
+
+        <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .column {
+         column-gap: 40px;
+         float: left;
+         width: 50%;
+         padding: 10px;
+         height: 300px;
+         border-radius: 5%;
+
+    }
+
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+        </style>
+        <!-- Custom styles for this template -->
+        <!--<link href="https://getbootstrap.com/docs/4.5/examples/cover/cover.css" rel="stylesheet">-->
+        <link href="https://getbootstrap.com/docs/4.5/examples/album/album.css" rel="stylesheet">
+    </head>
+    <body class="text-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <h3 class="masthead-brand">Ashley Peter Chaplin</h3>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="#">About Me</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+                            Contact
+                        </button>
+                    </nav>
+                </div>
+            </header>
+
+            <main class="inner cover">
+                <img style="border-radius: 50%" src="images/APC Profile Picture (1).png" alt="APC Profile Pic">
+                <h1 class="cover-heading">My experience, ambitions, successes and goals.</h1>
+                <p class="lead">"Play by the rules, but be ferocious" <i>Phil Knight</i></p>
+                <p class="lead">
+                    <button class="btn btn-lg btn-secondary" id="revealme">Learn more about me</button>
+                </p>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Contact Details</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul class="text-justify">
+                                    <li>Twitter: @apcbulldog</li>
+                                    <li>LinkedIn: Ashley Chaplin, MBA</li>
+                                    <li>email: ashleychaplin010@gmail.com</li>
+                                    <li>Cell: 083 539 2353</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="mycv">
+                    <div id="reveal">
+                        <section class="jumbotron text-center">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="column" style="background-color:#aaa; height:auto;">
+                                        <h2>Education</h2>
+                                        <p>My highest current qualification is a Master's in Business Administration,
+                                            which I completed in 2019 at Doshisha University, Kyoto, Japan.</p>
+                                        <div class="text-left">
+                                        <ul>
+                                            <li>Specialized in Marketing</li>
+                                            <li>Specialized in Sustainable Management</li>
+                                            <li>Helped create a website www.y4sdgs.com, which my team and I presented at an International Conference</li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                    <div class="column" style="background-color:#bbb; height:auto;">
+                                        <h2>Experience</h2>
+                                        <p>The majority of my experience is in the Automotive Aftermarket, where I ran a
+                                            small business for 15 years.</p>
+                                        <br>
+                                        <p>Skills and Responsibilities:</p>
+                                        <div class="text-left">
+                                        <ul>
+                                            <li>Microsoft Office</li>
+                                            <li>Operations Management</li>
+                                            <li>Debtor and Creditor Management</li>
+                                        </ul>
+                                        </div>
+                                        </div>
+                                </div>
+
+                            </div>
+                            <section class="jumbotron text-center">
+                                <div class="container" id="portfolio">
+                                    <h2>Marketing Portfolio</h2>
+                                    <p class="lead text-muted">Currently, I assist with Marketing Projects by designing
+                                        adverts and posts for various campaigns</p>
+                                    <p>
+                                        <a href="https://drive.google.com/drive/folders/1of0gvyXEn-FhTZJP_R2bTxsp_L0KEYM6?usp=sharing"
+                                           class="btn btn-lg btn-secondary" target="_blank">View My Portfolio</a>
+
+                                    </p>
+                                </div>
+                            </section>
+
+                            <div class="album py-5 bg-light">
+                                <div class="container">
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="images/KA Employment Opp-FED-July2020.png" alt="NPO job ad"
+                                                     class="bd-placeholder-img card-img-top" width="100%" height="225">
+                                                <div class="card-body">
+                                                    <p class="card-text">Job advert that I designed for posting on
+                                                        social media platforms</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="images/Kohei Muto (4).png" alt="NPO ad for Mr Kohei Muto"
+                                                     class="bd-placeholder-img card-img-top" width="100%" height="225">
+                                                <div class="card-body">
+                                                    <p class="card-text">Advert I created for Webinar featuring Mr.
+                                                        Kohei Muto, a Venture Capitalist</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card mb-4 shadow-sm">
+                                                <img src="images/Wafeeqah Lagerdien.png"
+                                                     alt="NPO ad for Ms. Wafeeqah Lagerdien"
+                                                     class="bd-placeholder-img card-img-top" width="100%" height="225">
+                                                <div class="card-body">
+                                                    <p class="card-text">Advert I created for Webinar featuring Ms.
+                                                        Wafeeqah Lagerdien, Founder of Entrihub</p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <section class="jumbotron text-center">
+                                <div class="container">
+                                    <h2>Coding Portfolio</h2>
+                                    <p class="lead text-muted">While I am relatively new to coding, I am enjoying the
+                                        journey. I have created a website to show my current skill level</p>
+                                    <p>
+                                        <a href="https://gist.github.com/AshleyC1803/da9a8ed7bc76cba9601fe4b119c89b9c"
+                                           class="btn btn-lg btn-secondary" target="_blank">View My Code</a>
+
+                                    </p>
+                                </div>
+                            </section>
+
+
+                    </div>
+
+                </div>
+            </main>
+
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>Profile for <a href="https://www.linkedin.com/in/ashley-chaplin-m-b-a-55277285/">Ashley
+                        Chaplin</a>.</p>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+                integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+                crossorigin="anonymous"></script>
+        <script src="JS/AshleyPC.js"></script>
+        <script src="JS/bootstrap.bundle.min.js"
+                integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+                crossorigin="anonymous"></script>
+
+    </body>
+</html>
